@@ -206,9 +206,9 @@ const Dashboard = () => {
               </CButtonGroup>
             </CCol>
           </CRow>
-          <MainChart />
+          {/*<MainChart />*/}
         </CCardBody>
-        <CCardFooter>
+        {/*<CCardFooter>
           <CRow
             xs={{ cols: 1, gutter: 4 }}
             sm={{ cols: 2 }}
@@ -231,10 +231,10 @@ const Dashboard = () => {
               </CCol>
             ))}
           </CRow>
-        </CCardFooter>
+          </CCardFooter>*/}
       </CCard>
       <WidgetsBrand className="mb-4" withCharts />
-      <CRow>
+      {/*<CRow>
         <CCol xs>
           <CCard className="mb-4">
             <CCardHeader>Traffic {' & '} Sales</CCardHeader>
@@ -379,7 +379,7 @@ const Dashboard = () => {
             </CCardBody>
           </CCard>
         </CCol>
-      </CRow>
+                </CRow>*/}
     </>
   )
 }
