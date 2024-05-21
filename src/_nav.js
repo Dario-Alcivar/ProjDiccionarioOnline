@@ -25,7 +25,18 @@ const _nav = [
       color: 'info',
       text: 'NEW',
     },
-  },/*
+  },
+  {
+    component: CNavTitle,
+    name: 'Translate',
+  },
+  {
+    component: CNavItem,
+    name: 'Translate',
+    to: '/translate',
+    icon: <CIcon icon={cilDrop} customClassName="nav-icon" />,
+  },
+  /*
   {
     component: CNavTitle,
     name: 'Theme',
