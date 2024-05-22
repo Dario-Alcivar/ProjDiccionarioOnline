@@ -34,8 +34,6 @@ const TranslateComponent = () => {
     //setTranslatedText(translated);
   };
 
-
-
   return (
     <CRow>
       <CCol xs={12}>
@@ -46,12 +44,12 @@ const TranslateComponent = () => {
           <CCardBody>
             <CForm>
               <div className="mb-3">
-                <CFormLabel htmlFor="exampleFormControlTextarea1">Example textarea</CFormLabel>
+                <CFormLabel htmlFor="exampleFormControlTextarea1">Ingrese su texto</CFormLabel>
                 <CFormTextarea value={us_text} onChange={(e) => us_setText(e.target.value)}></CFormTextarea>
 
                 <CFormLabel htmlFor="exampleFormControlTextarea1" style={{ background: 'red' }}>{translatedText}</CFormLabel>
               </div>
-              <CButton onClick={handleTranslate}>Traducir</CButton>
+              <CButton color="primary" onClick={handleTranslate}>Traducir</CButton>
             </CForm>
           </CCardBody>
         </CCard>
