@@ -311,6 +311,19 @@ const _nav = [
     href: 'https://coreui.io/react/docs/templates/installation/',
     icon: <CIcon icon={cilDescription} customClassName="nav-icon" />,
   },*/
+  
+  {
+    component: CNavGroup,
+    name: 'Pages',
+    icon: <CIcon icon={cilStar} customClassName="nav-icon" />,
+    items: [
+      {
+        component: CNavItem,
+        name: 'Logoff',
+        to: '/logoff',
+      },
+    ],
+  },
 ]
 
 export default _nav
