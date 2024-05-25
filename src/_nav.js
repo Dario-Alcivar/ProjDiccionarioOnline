@@ -36,6 +36,12 @@ const _nav = [
     to: '/translate',
     icon: <CIcon icon={cilDrop} customClassName="nav-icon" />,
   },
+  {
+    component: CNavItem,
+    name: 'Dictionary',
+    to: '/dictionary',
+    icon: <CIcon icon={cilDrop} customClassName="nav-icon" />,
+  },
   /*
   {
     component: CNavTitle,
