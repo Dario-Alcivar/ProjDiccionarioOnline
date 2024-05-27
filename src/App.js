@@ -20,7 +20,7 @@ const App = () => {
   const storedTheme = useSelector((state) => state.theme);
 
   // Estado para verificar si el usuario ha iniciado sesión
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState("");
 
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.href.split('?')[1]);
